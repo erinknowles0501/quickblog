@@ -1,0 +1,68 @@
+* {  margin: 0;  padding: 0;  box-sizing: border-box;  }
+
+html,
+body {
+	height: 100%;
+	/* FONT SIZE NEEDS TO CHANGE FOR MOBILE */
+	font-size: 1.5vw;
+}
+
+body {
+	background: #330505;
+	font-family: 'times new roman', serif;
+	margin: 0 auto;
+	/* WIDTH NEEDS TO CHANGE FOR MOBILE */
+	width: 70%;
+}
+
+main {
+	display: grid;
+	/* GRID NEEDS TO CHANGE FOR MOBILE */
+	grid-template-columns: 1fr 1fr;
+}
+
+header {
+	background: rgba(0,0,0,0.5);
+	padding: 3rem;
+}
+
+header h1 {
+	margin-bottom: 1rem;
+	font-size: 2.5rem;
+}
+
+header a {
+	color: rgba(255,160,110,0.8);
+}
+
+header h2 {
+	color: rgba(255,110,90,0.5);
+	font-size: 1.5rem;
+}
+
+section {
+	padding: 2rem;
+	line-height: 1.6;
+}
+
+section h3 {
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+}
+
+.left {
+	grid-column: 1;
+}
+
+.right {
+	grid-column: 2;
+}
+
+.special {
+	background: purple;
+	transition: background 0.3s;
+}
+
+.special:hover {
+	background: rgba(255,0,0,0.7);
+}

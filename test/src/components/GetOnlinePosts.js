@@ -41,12 +41,14 @@ class GetOnlinePosts extends Component {
 						return(
 
 												posts.map(post => (
+																<a className="post-link" href="/">
 																<section className="post-excerpt">
 																		<h3>{post.title}</h3>
 																		<p className="author">{post.author}</p>
 																		<p className="date">{post.date}</p>
 																		<p className="excerpt">{post.text}</p>
 																</section>
+																</a>
 																
 												))
 										

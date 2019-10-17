@@ -4,6 +4,13 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import PostExcerpt from "../components/postexcerpt"
+
+import GetOnlinePosts from '../components/GetOnlinePosts';
+
+
+// https://jsonblob.com/7a95ec42-f0a0-11e9-83ca-b3e4705c05fc
+
 
 const IndexPage = () => (
   <Layout>
@@ -16,6 +23,8 @@ const IndexPage = () => (
 			<p>skdjghskgjh sdkjgh sdjkgh sdkjghs kgjhsd kjg hskjg hs</p>
 		</section>
 		
+		<GetOnlinePosts/>
+
 
     <Link to="/page-2/">Go to page 2</Link>
 		<Link to="/ding">Dinjgggg</Link>
